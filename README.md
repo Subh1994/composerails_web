@@ -1,12 +1,7 @@
 # composerails_web
 
-Demonestration Project for linking multiple container in docker. We have choose Rail project as describe in official docker documentaion please refer ![]() for more information. 
-
-## Requirement 
-- official rail docker image 
-- posgrel database docker image 
-- docker-compose
 
 
-please refer Dockerfile to know how this is built 
-Please docker-compose.yml to know how docker-compose manage this. 
+Basic rail applicaton docker image for startingrail project from scratch, application folder is in /myapp folder and deafult database is set to postgrel database.
+
+this image is build using tutorial for docker-compose on official site so please refer to [Quickstart: Docker Compose and Rails](https://docs.docker.com/compose/rails/) for more detail information. 
